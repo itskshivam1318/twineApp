@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "twineapp",
+    "slug": "twineapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.twineapp.twine",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyB0iQk4aCPhOYW0Op4-o_u4WVQ0ZvIT7fM",
+          "authDomain": "twine-9ccae.firebaseapp.com",
+          "databaseURL": "https://twine-9ccae.firebaseio.com",
+          "projectId": "twine-9ccae",
+          "storageBucket": "twine-9ccae.appspot.com",
+          "messagingSenderId": "555311675622",
+          "appId": "1:555311675622:web:ee75a796622641a119e327",
+          "measurementId": "G-N5Z6JY5JVL"
+        }
+      }
+    }
+  }
+}
